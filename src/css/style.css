@@ -1,0 +1,59 @@
+body{
+    font-weight: 800;
+    background-color: var(--background-color);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advaice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--advice-card-color);
+    width: 350px;
+    height:340px ;
+    border-radius: 15px;
+}
+
+.advaice .advice-id{
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+.advaice .texto-advice{
+    display: flex;
+    color: var( --text-color);
+    font-size: 23px;
+    padding: 18px;
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+.advaice .image-divider{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.advaice .adivice-botton{
+width: 65px;
+height: 65px;
+border-radius: 50%;
+border: none;
+background-color: var(--advice-dice-color);
+transform: translateY(50%);
+margin-top: 20px;
+}
